@@ -1,0 +1,15 @@
+
+.carousel-inner .carousel-item-right.active .movie,
+.carousel-inner .carousel-item-next .movie {
+  transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active .movie, 
+.carousel-inner .carousel-item-prev .movie {
+  transform: translateX(-33.33%)
+}
+  
+.carousel-inner .carousel-item-right .movie,
+.carousel-inner .carousel-item-left .movie { 
+  transform: translateX(0);
+}
